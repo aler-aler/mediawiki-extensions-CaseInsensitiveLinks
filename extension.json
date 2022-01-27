@@ -1,0 +1,26 @@
+{
+	"name": "CaseInsensitiveLinks",
+	"author": [
+		"nairobi"
+	],
+	"version": "1.0.0",
+	"descriptionmsg": "caseinsensitivelinks-desc",
+	"url": "https://www.nairobi.ninja",
+	"license-name": "GPL-3.0-or-later",
+	"type": "parser",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"AutoloadClasses": {
+		"CaseInsensitiveLinks": "CaseInsensitiveLinks.php"
+	},
+	"Hooks": {
+		"HtmlPageLinkRendererEnd": ["CaseInsensitiveLinks::onHtmlPageLinkRendererEnd"]
+	},
+	"MessagesDirs": {
+		"CaseInsensitiveLinks": [
+			"i18n"
+		]
+	},
+	"manifest_version": 2
+}
