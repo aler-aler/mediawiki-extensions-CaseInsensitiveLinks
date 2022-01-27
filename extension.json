@@ -5,7 +5,7 @@
 	],
 	"version": "1.0.0",
 	"descriptionmsg": "caseinsensitivelinks-desc",
-	"url": "https://www.nairobi.ninja",
+	"url": "https://github.com/aler-aler/mediawiki-extensions-CaseInsensitiveLinks",
 	"license-name": "GPL-3.0-or-later",
 	"type": "parser",
 	"requires": {
